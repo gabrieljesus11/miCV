@@ -1,2 +1,0 @@
-# miCV
-Mi Curriculum
