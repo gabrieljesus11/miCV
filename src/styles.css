@@ -10,7 +10,7 @@ p{
         width: 100%;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 2000px) {
     .topBar {
         background-color: #283345;
         align-items: center;
