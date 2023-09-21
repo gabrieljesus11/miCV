@@ -88,6 +88,18 @@ p{
     .titleFont {
         font-size: 2rem;
     }
+
+    .menu-button {
+        width: 4rem;
+    }   
+
+    #intro{
+        width: 70%;
+    }
+
+    #gabriel{
+        margin-top: 1rem;
+    }
 }
 
 @media (max-width: 320px) {
@@ -99,18 +111,12 @@ p{
         font-size: 3rem;
     }
 
-    .menu-button {
-        width: 3rem;
-    }
-
     #intro{
-        width: 70%;
         text-align: justify;
         font-size: 1rem;
     }
 
     #gabriel{
-        margin-top: 1rem;
         width: 10rem;
         height: 10rem;
     }
