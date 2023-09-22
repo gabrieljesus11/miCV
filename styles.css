@@ -14,6 +14,22 @@ p{
     b a{
         color: #A17652;
     }
+
+    footer{
+        position:fixed;
+        bottom: 0;
+        display: flex;
+        background-color: #8F8FA1;
+        width: 100%;
+        height: 10%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    footer p{
+        text-align: center;
+    }
+
     .topBar {
         background-color: #283345;
         align-items: center;
@@ -55,7 +71,6 @@ p{
         flex-wrap: wrap;
         align-items: center;
         justify-content: space-evenly;
-        margin-top: 0;
     }
 
     #gabriel{
@@ -70,6 +85,7 @@ p{
     #intro{
         font-size: 2rem;
         width: 50%;
+        padding-bottom:10% ;
     }
 }
 
