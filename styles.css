@@ -11,6 +11,9 @@ p{
 }
 
 @media (max-width: 2000px) {
+    b a{
+        color: #A17652;
+    }
     .topBar {
         background-color: #283345;
         align-items: center;
