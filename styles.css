@@ -10,84 +10,125 @@ p{
         width: 100%;
 }
 
-@media (max-width: 2000px) {
-    b a{
-        color: #A17652;
-    }
-
-    footer{
-        position:fixed;
-        bottom: 0;
-        display: flex;
-        background-color: #8F8FA1;
-        width: 100%;
-        height: 10%;
-        justify-content: center;
-        align-items: center;
-    }
-
-    footer p{
-        text-align: center;
-    }
-
-    .topBar {
-        background-color: #283345;
-        align-items: center;
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        height: auto;
-    }
-    
-    .titleFont {
-        color: #FFC13B;
-        text-align: right;
-        font-family: Roboto;
-        font-size: 4rem;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-        margin: auto;
-    }
-
-    .subtitleFont {
-        color: #FFC13B;
-        text-align: right;
-        font-family: Roboto;
-        font-size: 2rem;
-        font-style: normal;
-        font-weight: 600;
-        line-height: normal;
-        margin: auto;
-    }
-
-    .menu-button {
-        display: none;
-    }
-
-    .main-body {
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: space-evenly;
-    }
-
-    #gabriel{
-        border-radius: 50%;
-        border: 0.2rem solid #A17652;
-        align-items:start;
-        margin: 0.5rem 4rem;
-        width: 20rem;
-        height: 20rem;
-    }
-
-    #intro{
-        font-size: 2rem;
-        width: 50%;
-        padding-bottom:10% ;
-    }
+b a{
+    color: #A17652;
 }
+
+footer{
+    position:fixed;
+    bottom: 0;
+    display: none; /*flex*/
+    background-color: #8F8FA1;
+    width: 100%;
+    height: 10%;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p{
+    text-align: center;
+}
+
+.topBar {
+    background-color: #283345;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+}
+    
+.titleFont {
+    color: #FFC13B;
+    text-align: right;
+    font-family: Roboto;
+    font-size: 4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: auto;
+}
+
+.subtitleFont {
+    color: #FFC13B;
+    text-align: right;
+    font-family: Roboto;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: auto;
+}
+
+.menu-button {
+    display: none;
+}
+
+.main-body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-evenly;
+}
+
+.presentation{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.presentation p{
+    text-align: center;
+    font-size: 2rem;
+    width: 50%;
+}
+
+.positions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 2rem;
+    font-family: Roboto Flex;
+}
+
+.position{
+    border-radius: 1rem;
+    width: 45%;
+    background-color: #424A4B;
+    color: #FFC13B;
+    font-family: Roboto;
+    font-size: 1.5rem;
+    padding: 2rem;
+    text-align: justify;
+}
+
+.position ul li{
+    font-family: Roboto Flex;
+}
+
+#gabriel{
+    border-radius: 50%;
+    border: 0.5rem solid #A17652;
+    margin: 5%;
+    width: 30rem;
+}
+
+#intro{
+    font-size: 2rem;
+    margin-top: 5%;
+    width: 50%;
+    padding-bottom:10% ;
+    text-align: center;
+}
+
+#openpass-logo{
+    width: 50rem;
+}
+
 
 @media (max-width:768px){
     .menu {
