@@ -110,6 +110,25 @@ footer p{
     font-family: Roboto Flex;
 }
 
+.tech{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    margin: 5rem;
+    background-color: #424A4B;
+    border-radius: 1rem;
+}
+
+.tech img{
+    height: 10rem;
+    width: 10rem;
+    margin: 2rem;
+    padding: 2rem;
+    background-color: whitesmoke;
+    border-radius: 2rem;
+    box-shadow: 1rem 1rem #283345;
+}
+
 #gabriel{
     border-radius: 50%;
     border: 0.5rem solid #A17652;
@@ -127,6 +146,11 @@ footer p{
 
 #openpass-logo{
     width: 50rem;
+}
+
+#accenture-logo{
+    width: 50rem;
+    margin: 10rem;
 }
 
 
@@ -220,6 +244,8 @@ a {
 .actual-page{
     color: #283345;
     background-color: #FFC13B;
+    border-radius: 2rem;
+    box-shadow: 0.5rem 0.5rem #A17652;
 }
 
 .actual-page a{
