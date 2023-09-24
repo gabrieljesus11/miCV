@@ -15,9 +15,10 @@ b a{
 }
 
 footer{
+    color: #283345;
     position:fixed;
     bottom: 0;
-    display: none; /*flex*/
+    display: flex; /*flex*/
     background-color: #8F8FA1;
     width: 100%;
     height: 10%;
@@ -97,7 +98,7 @@ footer p{
 
 .position{
     border-radius: 1rem;
-    width: 45%;
+    width: 40%;
     background-color: #424A4B;
     color: #FFC13B;
     font-family: Roboto;
@@ -120,8 +121,8 @@ footer p{
 }
 
 .tech img{
-    height: 10rem;
-    width: 10rem;
+    height: 5rem;
+    width: 5rem;
     margin: 2rem;
     padding: 2rem;
     background-color: whitesmoke;
@@ -133,11 +134,11 @@ footer p{
     border-radius: 50%;
     border: 0.5rem solid #A17652;
     margin: 5%;
-    width: 30rem;
+    width: 15rem;
 }
 
 #intro{
-    font-size: 2rem;
+    font-size: 1rem;
     margin-top: 5%;
     width: 50%;
     padding-bottom:10% ;
@@ -145,12 +146,12 @@ footer p{
 }
 
 #openpass-logo{
-    width: 50rem;
+    width: 35rem;
 }
 
 #accenture-logo{
-    width: 50rem;
-    margin: 10rem;
+    width: 20rem;
+    margin: 0 5rem 5rem 5rem;
 }
 
 
@@ -218,7 +219,7 @@ footer p{
     display: flex;
     flex: 1;
     margin: 1rem;
-    padding: 1rem;
+    padding: 0.3rem;
     text-align: center;
     justify-content: center;
     align-items: center;
