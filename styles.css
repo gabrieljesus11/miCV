@@ -1,5 +1,5 @@
 body{
-    margin: 0 0;
+    margin: 0 0 10% 0;
 }
 
 p{
@@ -172,6 +172,54 @@ footer p{
     align-items: center;
 }
 
+.referencia{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    font-family: Roboto;
+    margin: 4rem 0;
+    color: #283345;
+}
+
+.contact-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.my-contact-icons{
+    width: 6rem;
+    height: 6rem;
+    padding: 1rem;
+}
+
+.contact-links{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.referencia-img{
+    width: 20rem;
+    border-radius: 30rem;   
+}
+
+#mis-contactos{
+    display: flex;
+    font-family: Roboto;
+    font-size: 3rem;
+    color: #283345;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+#linkedin{
+    width: 3rem;
+    height: 3rem;
+}
+
 #itba{
     width: 20rem;
     margin-left: 10rem;
@@ -194,7 +242,7 @@ footer p{
     border-radius: 50%;
     border: 0.5rem solid #A17652;
     margin: 5%;
-    width: 15rem;
+    width: 20rem;
 }
 
 #intro{
