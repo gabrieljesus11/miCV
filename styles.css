@@ -10,10 +10,6 @@ p{
         width: 100%;
 }
 
-b a{
-    color: #A17652;
-}
-
 footer{
     color: #283345;
     position:fixed;
@@ -130,6 +126,70 @@ footer p{
     box-shadow: 1rem 1rem #283345;
 }
 
+.itba-about{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 10rem;
+}
+
+.uade-about{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 5rem;
+}
+
+.coder-about{
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-bottom: 5rem;
+    width:100%;
+    align-items: center;
+}
+
+.about-item{
+    width: 50%;
+    text-align: left;
+    font-family: Roboto Flex;
+    background-color: #424A4B;
+    color: #FFC13B;
+    padding: 2rem;
+    border-radius: 2rem;
+    box-shadow: 0.5rem 0.5rem #283345;
+}
+
+.about-info{
+    text-align: justify;
+    width: 23rem;
+    font-family: Roboto Flex;
+    font-size: 1.2rem;
+    background-color: #424A4B;
+    padding: 2rem;
+    border-radius: 10%;
+    color: #FFC13B;
+    align-items: center;
+}
+
+#itba{
+    width: 20rem;
+    margin-left: 10rem;
+    margin-top: 2rem;
+}
+
+#coderhouse{
+    width: 20rem;
+    margin-left: 10%;
+}
+
+#uade{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 2rem 0 ;
+}
+
 #gabriel{
     border-radius: 50%;
     border: 0.5rem solid #A17652;
@@ -152,6 +212,10 @@ footer p{
 #accenture-logo{
     width: 20rem;
     margin: 0 5rem 5rem 5rem;
+}
+
+#logo-uade{
+    width: 30%;
 }
 
 
