@@ -477,6 +477,15 @@ a {
         flex-wrap: wrap;
     }
 
+    #openpass-logo{
+        width: 15rem;
+
+    }
+
+    #accenture-logo{
+        width: 15rem;
+    }
+
     #itba{
         margin: 3rem;
     }
