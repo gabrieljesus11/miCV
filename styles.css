@@ -11,19 +11,22 @@ p{
 }
 
 footer{
-    color: #283345;
     position:fixed;
-    bottom: 0;
-    display: flex; /*flex*/
-    background-color: #8F8FA1;
-    width: 100%;
+    display: flex;
+    color: #283345;
     height: 10%;
     justify-content: center;
     align-items: center;
 }
 
+footer .desktop{
+    background-color: #8F8FA1;
+    width: 100%;
+}
+
 footer p{
     text-align: center;
+    bottom: 0;
 }
 
 .topBar {
@@ -130,7 +133,6 @@ footer p{
     display:flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-bottom: 10rem;
 }
 
 .uade-about{
@@ -205,6 +207,52 @@ footer p{
     border-radius: 30rem;   
 }
 
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+}
+
+.menu ul li {
+    display: flex;
+    flex: 1;
+    margin: 1rem;
+    padding: 0.3rem;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    color: var(--Contraste, #FFC13B);
+    font-family: Roboto Flex;
+    font-style: none;
+    font-size: 1.5rem;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.titleLabel {
+    flex: content;
+    justify-content: space-around;
+    display: flexbox;
+    flex-direction: column;
+    margin: 1rem;
+}
+
+.actual-page {
+    color: #283345;
+    background-color: #FFC13B;
+    border-radius: 2rem;
+    box-shadow: 0.5rem 0.5rem #A17652;
+}
+
+.actual-page a {
+    color: #283345;
+}
+
 #mis-contactos{
     display: flex;
     font-family: Roboto;
@@ -266,14 +314,109 @@ footer p{
     width: 30%;
 }
 
+.mobile{
+    display:none;
+}
 
-@media (max-width:768px){
+@media (max-width:768px){  
+    body{
+        margin-bottom: 5%;
+    }
+
     .menu {
         display: none;
     }
-    .menu-button {
-        display:block;
-        width:8rem;
+
+    .positions{
+        flex-wrap: wrap;
+    }
+
+    .position{
+        width: 80%;
+        margin: 2rem
+    }
+
+    .tech{
+        flex-wrap: wrap;
+        justify-content:space-evenly;
+    }
+
+    .presentation .accenture-presentation{
+        flex-direction: row-reverse;
+    }
+
+    footer .desktop{
+        visibility:hidden;
+    }
+
+    footer p{
+        display: none;
+    }
+
+    .mobile{
+        width: 100%;
+        height: 5%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        background-color: #283345;
+        bottom: 0;
+    }
+
+    .mobile a{
+        width: 20%;
+        font-family: Roboto;
+        color: #FFC13B;
+        text-align: center;
+    }
+
+    .uade-about {
+        flex-wrap: wrap;
+    }
+
+    .about-info{
+        margin: 1rem;
+        width: 80%;
+        border-radius: 1rem;
+    }
+
+    .coder-about{
+        justify-content: center;
+    }
+
+    .about-item{
+        margin-right:2rem;
+    }
+
+    .referencia-img {
+        margin: 1rem;
+    }
+
+    .referencia{
+        flex-wrap: wrap;
+    }
+
+    .contact-icons{
+        margin-bottom: 5rem;
+    }
+
+    #itba{
+        margin-left:1rem;
+        width:15rem;
+    }
+
+    #coderhouse{
+        width: 15rem;
+        margin: 1rem;
+    }
+
+    #openpass-logo {
+        margin-top: 0;
+        margin-bottom: -5rem;
+    }
+
+    #gabriel{
+        margin: 2rem 2rem;
     }
 }
 
@@ -290,6 +433,55 @@ footer p{
         width: 4rem;
     }   
 
+    footer a{
+        font-size: 0.8rem;
+    }
+
+    .presentation p{
+        font-size: 2rem;
+        width: 90%;
+    }
+
+    .accenture-presentation{
+        flex-direction: column-reverse;
+    }
+
+    .coder-about{
+        flex-flow: column;
+        margin-left: 1rem;
+    }
+
+    .uade-about{
+        margin-bottom: 0;
+    }
+
+    .itba-about{
+        flex-flow: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom:5rem;
+    }
+
+    .referencia-img{
+        width: 80%;
+    }
+
+    .referencia div{
+        text-align: center;
+    }
+
+    .contact-icons{
+        flex-wrap: wrap;
+    }
+
+    #itba{
+        margin: 3rem;
+    }
+
+    #coderhouse{
+        margin:3rem
+    }
+
     #intro{
         width: 70%;
     }
@@ -300,12 +492,42 @@ footer p{
 }
 
 @media (max-width: 320px) {
+
     .subtitleFont {
         font-size: 2rem;
     }
 
     .titleFont {
         font-size: 3rem;
+    }
+
+    footer a{
+        font-size: 0.7rem;
+    }
+    
+    .presentation p{
+        font-size: 1rem;
+    }
+
+    .position{
+        font-size: 1rem;
+    }
+
+    .tech{
+        width: 80%;
+        height: auto;
+        flex-direction: column;
+        margin: 2rem;
+        align-items: center;
+    }
+
+    #openpass-logo{
+        width: 100%
+    }
+
+    #accenture-logo{
+        width:90%;
+        margin: 1rem 1rem
     }
 
     #intro{
@@ -317,50 +539,4 @@ footer p{
         width: 10rem;
         height: 10rem;
     }
-}
-
-.menu ul{
-    display: flex;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    justify-content: space-between;
-}
-
-.menu ul li{
-    display: flex;
-    flex: 1;
-    margin: 1rem;
-    padding: 0.3rem;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    color: var(--Contraste, #FFC13B);
-    font-family: Roboto Flex;
-    font-style: none;
-    font-size: 1.5rem;
-}
-
-a {
-    text-decoration: none;
-    color: inherit;
-}
-
-.titleLabel{
-    flex: content;
-    justify-content: space-around;
-    display: flexbox;
-    flex-direction: column;
-    margin: 1rem;
-}
-
-.actual-page{
-    color: #283345;
-    background-color: #FFC13B;
-    border-radius: 2rem;
-    box-shadow: 0.5rem 0.5rem #A17652;
-}
-
-.actual-page a{
-    color:#283345;
 }
