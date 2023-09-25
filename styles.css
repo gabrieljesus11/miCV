@@ -8,6 +8,7 @@ p{
 
 .menu {
         width: 100%;
+        background-color: #283345;
 }
 
 footer{
@@ -17,9 +18,7 @@ footer{
     height: 10%;
     justify-content: center;
     align-items: center;
-}
-
-footer .desktop{
+    bottom:0;
     background-color: #8F8FA1;
     width: 100%;
 }
@@ -347,6 +346,10 @@ a {
 
     footer .desktop{
         visibility:hidden;
+    }
+
+    .desktop{
+        display: none;
     }
 
     footer p{
