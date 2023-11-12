@@ -1,4 +1,5 @@
-<html lang="en">
+<!DOCTYPE html>
+<html lang="es-US">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,21 +11,25 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
     <title>Gabriel Gutiérrez - Home</title>
 </head>
-<nav>
+<nav id="nav">
     <div class="topBar">
         <div class="header">
             <div class="titleLabel">
-                <h1 class="titleFont">GABRIEL GUTIÉRREZ</h1>
-                <h2 class="subtitleFont">DESARROLLADOR BACKEND</h2>
+                <h1 class="titleFont" id="topBarTitle">GABRIEL GUTIÉRREZ</h1>
+                <h2 class="subtitleFont" id="topBarSubtitle">DESARROLLADOR BACKEND</h2>
             </div>
+            <label class="switch">
+                <input type="checkbox" id="toggleDarkMode">
+                <span class="slider"></span>
+            </label>
         </div>
     </div>
-        <div class="menu">
+        <div class="menu" id="menu">
             <ul>
-                <li class="actual-page"><a href="./index.html">HOME</a></li>
-                <li><a href="./experiencia.html">EXPERIENCIA</a></li>
-                <li><a href="./educacion.html">EDUCACIÓN</a></li>
-                <li><a href="./referencias-contacto.html">REFERENCIAS Y CONTACTO</a></li>
+                <li class="actual-page" id="actual-page"><a href="./index.html">HOME</a></li>
+                <li><a href="./experiencia.html" id="menu-item-experiencia">EXPERIENCIA</a></li>
+                <li><a href="./educacion.html" id="menu-item-educacion">EDUCACIÓN</a></li>
+                <li><a href="./referencias-contacto.html" id="menu-item-referencia">REFERENCIAS Y CONTACTO</a></li>
             </ul>
         </div>
     </div>
@@ -38,14 +43,15 @@
             Es prioridad para mí prepararme con herramientas actuales para enfrentar el mercado laboral de IT con lo mejor.<br><br></p>
     </div>
 </body>
-<footer class="desktop">
+<footer class="desktop" id="footer">
     <p>Todos los derechos reservados.<br> Las imágenes usadas pertenecen a las personas y empresas a las cuales hacen
         referencia. <br> Para más información haz click en las imagenes</p>
 </footer>
-<footer class="mobile">
-        <a href="./index.html">HOME</a></li>
-        <a href="./experiencia.html">EXPERIENCIA</a></li>
-        <a href="./educacion.html">EDUCACIÓN</a></li>
-        <a href="./referencias-contacto.html">REFERENCIAS Y CONTACTO</a></li>
+<footer class="mobile" id="mobile-footer">
+        <a href="./index.html" id="menu-item-home-mobile">HOME</a></li>
+        <a href="./experiencia.html" id="menu-item-experiencia-mobile">EXPERIENCIA</a></li>
+        <a href="./educacion.html" id="menu-item-educacion-mobile">EDUCACIÓN</a></li>
+        <a href="./referencias-contacto.html" id="menu-item-referencia-mobile">REFERENCIAS Y CONTACTO</a></li>
 </footer class="mobile">
+<script src="dark-mode.js"></script>
 </html>
